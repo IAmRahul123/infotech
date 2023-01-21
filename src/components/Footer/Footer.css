@@ -1,0 +1,79 @@
+/** @format */
+
+.rectangle-div1 {
+	position: absolute;
+	bottom: 0;
+	background-color: var(--color-gray-100);
+	width: 100%;
+	height: 472px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.rect-row {
+	display: flex;
+	flex-direction: row;
+}
+.comapny-text1 {
+	font-size: var(--font-size-sm);
+	display: inline-block;
+	width: 292px;
+	color: var(--color-white);
+	font-family: var(--font-open-sans);
+	margin-top: 10px;
+	text-align: left;
+	text-transform: capitalize;
+}
+.section-container {
+	display: flex;
+	flex-direction: column;
+	margin-right: 100px;
+}
+.comapny-img {
+	height: 76px;
+	width: 76px;
+}
+.f-our-service-contact,
+.f-our-service {
+	width: 224px;
+	height: 255px;
+	text-align: left;
+	font-size: var(--font-size-base);
+	color: var(--color-white);
+	line-height: normal;
+}
+.f-our-service-contact {
+	width: 290px;
+}
+.f-company {
+	font-size: var(--font-size-xl);
+	line-height: normal;
+}
+.f-header-line {
+	width: 150px;
+	height: 2px;
+	background-color: red;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.f-mobile-app-developement,
+.f-blogs,
+.f-articles,
+.f-ui-ux,
+.f-about {
+	display: block;
+	font-size: var(--font-size-base);
+	font-family: var(--font-open-sans);
+	margin-bottom: 20px;
+}
+
+.f-all-rights-reserved {
+	position: absolute;
+	bottom: 20px;
+	color: var(--color-white);
+	text-align: left;
+	font-size: var(--font-size-base);
+	text-transform: capitalize;
+}
