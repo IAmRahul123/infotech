@@ -32,10 +32,10 @@ const Homepage2 = () => {
 				src="../pexelsemrecanacer2079293-3@2x.png"
 			/>
 			<img className="rectangle-icon" alt="" src="../rectangle-34.svg" />
-			<button className="rectangle-parent">
+			{/* <button className="rectangle-parent">
 				<div className="group-child" />
 				<b className="learn-more">Learn More</b>
-			</button>
+			</button> */}
 			<div className="welcome-to-ajay-container">
 				<p className="welcome-to">
 					<span>{`WELCOME TO `}</span>
@@ -392,58 +392,6 @@ const Homepage2 = () => {
 				services to businesses of all kinds.
 			</div>
 			<img className="homepage2-child20" alt="" src="../vector-2.svg" />
-
-			{/* GOOGLE ADDS */}
-			<div
-				style={{
-					width: "100%",
-					justifyContent: "center",
-					alignItems: "center",
-					marginTop: "100px",
-				}}
-			>
-				<div className="group-div">
-					<img className="group-child14" alt="" src="../rectangle-47@2x.png" />
-					<div className="rectangle-parent7">
-						<div className="group-child" />
-						<b className="shop-now">Shop Now</b>
-					</div>
-					<div className="group-child16" />
-					<img
-						className="daraz-logo-2012-1-icon"
-						alt=""
-						src="../darazlogo2012-1@2x.png"
-					/>
-					<div className="group-child17" />
-					<div className="union">
-						<img className="union-child" alt="" src="../polygon-4@2x.png" />
-						<img className="union-item" alt="" src="../line-8@2x.png" />
-					</div>
-					<div className="best-price-guaranteed">Best Price Guaranteed</div>
-				</div>
-			</div>
-
-			{/* NAVBAR */}
-			<nav className="rectangle-nav">
-				<div>
-					<div className="union-container">
-						<img className="union-icon2" alt="" src="../union2.svg" />
-						<div className="ajay-infotech3">
-							<b>{`Ajay `}</b>
-							<span className="infotech2">infotech</span>
-						</div>
-					</div>
-				</div>
-
-				<div className="nav-links-container">
-					<div className="nav-links">Services</div>
-					<div className="nav-links">Home</div>
-					<div className="nav-links">Blogs</div>
-					<div className="nav-links">Contact</div>
-					{/* <div className="nav-links" /> */}
-					<div className="nav-links">Portfolio</div>
-				</div>
-			</nav>
 		</div>
 	);
 };

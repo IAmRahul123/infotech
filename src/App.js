@@ -3,9 +3,11 @@ import {
   Route,
   useNavigationType,
   useLocation,
+  BrowserRouter as Router
 } from "react-router-dom";
 import Homepage2 from "./pages/Homepage2";
 import { useEffect } from "react";
+import Navbar from "./pages/Navbar/Navbar"
 
 function App() {
   const action = useNavigationType();
@@ -44,9 +46,12 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<Homepage2 />} />
-    </Routes>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage2 />} />
+      </Routes>
+    </>
   );
 }
 export default App;
