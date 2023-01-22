@@ -1,0 +1,102 @@
+/** @format */
+
+.get-bg-img {
+	width: 100%;
+	height: 334px;
+	object-fit: cover;
+	position: absolute;
+}
+
+.get-bg-img2 {
+	width: 100%;
+	height: 334px;
+	object-fit: cover;
+}
+.get-dont-miss,
+.get-form,
+.get-title {
+	position: absolute;
+	color: var(--color-white);
+
+	text-align: center;
+}
+
+.get-title {
+	padding-top: 1rem;
+	font-size: var(--font-size-2xl);
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.get-dont-miss {
+	text-transform: capitalize;
+	font-size: var(--font-size-sm);
+	font-weight: normal;
+	/* padding-bottom: 150px; */
+}
+.get-dont-miss-text {
+	padding-top: 5rem;
+}
+
+.get-form {
+	padding-top: 10rem;
+	display: flex;
+}
+
+.get-input-container {
+	border-radius: var(--br-sm);
+	background-color: var(--color-white);
+	box-shadow: 0 22px 40px rgba(41, 115, 115, 0.2);
+	width: 720px;
+	height: 77px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.get-input {
+	position: absolute;
+	padding: 10px;
+	top: 11.2rem;
+	left: 40px;
+	width: 515px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+}
+
+.get-main-container {
+	width: 100%;
+	height: 334px;
+	background-color: #352f26;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	flex-direction: column;
+}
+
+.get-btn-container {
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: white;
+	position: absolute;
+	/* z-index: 1; */
+	height: 53px;
+	right: 1rem;
+	top: 10.8rem;
+}
+
+.get-btn {
+	/* position: absolute;
+	top: 0;
+	left: 0; */
+	border-radius: var(--br-sm);
+	background-color: var(--color-red);
+	width: 143px;
+	height: 53px;
+}
+
+.get-mail-icon {
+	position: absolute;
+	left: 15px;
+	top: 11.8rem;
+}
