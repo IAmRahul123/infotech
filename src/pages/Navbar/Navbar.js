@@ -13,10 +13,16 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' spy={true} smooth={true} offset={50} duration={500} className='logo'>
-                    <img src={logo} alt='logo' />
-                    <a>Infotech</a>
-                </a>
+                <div>
+                    <div className="union-container">
+                        <img className="union-icon2" alt="" src={logo} />
+                        <div className="ajay-infotech3">
+                            <b>{`Ajay `}</b>
+                            <span className="infotech2">infotech</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#000' }} />)
                         : (<FaBars size={30} style={{ color: '#000' }} />)}
@@ -45,7 +51,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </div >
     )
 }
 
