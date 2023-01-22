@@ -6,7 +6,7 @@ import BgImage2 from "../../Assets/pexelsemrecanacer2079293-3@2x.png";
 import "./GetInTouch.css";
 const GetInTouch = () => {
 	return (
-		<div style={{ marginTop: "150px" }} className="get-main-container">
+		<div className="get-main-container">
 			<img className="get-bg-img" alt="" src={BgImage} />
 			<img className="get-bg-img2" alt="" src={BgImage2} />
 			<div className="get-title">Get in touch</div>
