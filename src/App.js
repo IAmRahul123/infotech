@@ -1,60 +1,60 @@
 /** @format */
 
 import {
-	Routes,
-	Route,
-	useNavigationType,
-	useLocation,
+  Routes,
+  Route,
+  useNavigationType,
+  useLocation,
+  BrowserRouter as Router
 } from "react-router-dom";
 import Homepage2 from "./pages/Homepage2";
 import { useEffect } from "react";
+import Navbar from "./pages/Navbar/Navbar"
 import Footer from "./components/Footer/Footer";
-import GetInTouch from "./components/GetInTouch/GetInTouch";
 
 function App() {
-	const action = useNavigationType();
-	const location = useLocation();
-	const pathname = location.pathname;
+  const action = useNavigationType();
+  const location = useLocation();
+  const pathname = location.pathname;
 
-	useEffect(() => {
-		if (action !== "POP") {
-			window.scrollTo(0, 0);
-		}
-	}, [action, pathname]);
+  useEffect(() => {
+    if (action !== "POP") {
+      window.scrollTo(0, 0);
+    }
+  }, [action, pathname]);
 
-	useEffect(() => {
-		let title = "";
-		let metaDescription = "";
+  useEffect(() => {
+    let title = "";
+    let metaDescription = "";
 
-		switch (pathname) {
-			case "/":
-				title = "";
-				metaDescription = "";
-				break;
-		}
+    switch (pathname) {
+      case "/":
+        title = "";
+        metaDescription = "";
+        break;
+    }
 
-		if (title) {
-			document.title = title;
-		}
+    if (title) {
+      document.title = title;
+    }
 
-		if (metaDescription) {
-			const metaDescriptionTag = document.querySelector(
-				'head > meta[name="description"]'
-			);
-			if (metaDescriptionTag) {
-				metaDescriptionTag.content = metaDescription;
-			}
-		}
-	}, [pathname]);
+    if (metaDescription) {
+      const metaDescriptionTag = document.querySelector(
+        'head > meta[name="description"]'
+      );
+      if (metaDescriptionTag) {
+        metaDescriptionTag.content = metaDescription;
+      }
+    }
+  }, [pathname]);
 
-	return (
-		// <Routes>
-		// 	<Route path="/" element={<Footer />} />
-		// </Routes>
-		<>
-			<GetInTouch />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Footer />} />
+      </Routes>
+    </>
+  );
 }
 export default App;
