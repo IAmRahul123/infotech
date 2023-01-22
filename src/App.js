@@ -9,6 +9,7 @@ import {
 import Homepage2 from "./pages/Homepage2";
 import { useEffect } from "react";
 import Footer from "./components/Footer/Footer";
+import GetInTouch from "./components/GetInTouch/GetInTouch";
 
 function App() {
 	const action = useNavigationType();
@@ -47,9 +48,13 @@ function App() {
 	}, [pathname]);
 
 	return (
-		<Routes>
-			<Route path="/" element={<Footer />} />
-		</Routes>
+		// <Routes>
+		// 	<Route path="/" element={<Footer />} />
+		// </Routes>
+		<>
+			<GetInTouch />
+			<Footer />
+		</>
 	);
 }
 export default App;
