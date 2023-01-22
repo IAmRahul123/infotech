@@ -1,3 +1,5 @@
+/** @format */
+
 import {
   Routes,
   Route,
@@ -8,6 +10,7 @@ import {
 import Homepage2 from "./pages/Homepage2";
 import { useEffect } from "react";
 import Navbar from "./pages/Navbar/Navbar"
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const action = useNavigationType();
@@ -49,7 +52,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Homepage2 />} />
+        <Route path="/" element={<Footer />} />
       </Routes>
     </>
   );

@@ -1,5 +1,6 @@
 /** @format */
 
+import Navbar from "../components/Navbar/Navbar";
 import "./Homepage2.css";
 
 const Homepage2 = () => {
