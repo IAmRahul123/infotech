@@ -12,6 +12,8 @@ import { useEffect } from "react";
 import Navbar from "./pages/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import GetInTouch from "./components/GetInTouch/GetInTouch";
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
 
 function App() {
   const action = useNavigationType();
@@ -57,6 +59,8 @@ function App() {
       </Routes> */}
 
       <Navbar />
+      <Hero />
+      <About />
       <GetInTouch />
       <Footer />
     </>

@@ -1,7 +1,7 @@
 /** @format */
 
 .rectangle-div1 {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	background-color: var(--color-gray-100);
 	width: 100%;
