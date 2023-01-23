@@ -46,6 +46,8 @@
 	width: 502px;
 }
 
-.animated-text{
-	flex-direction: row;
+.animated-text  p:nth-child(2){
+    color: var(--secondary-color);
+	font-size: 25px;
+	font-weight: 600;
 }
