@@ -1,13 +1,16 @@
 .about-content {
     align-items: center;
-    margin: 5rem;
+    margin-top: 100px;
+    margin-right: 100px;
 }
 
-.about-content img {
+.about-content img:nth-child(2) {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     height: 15rem;
-    width: auto
+    width: 250px;
+    height: 250px;
+    margin-left: 150px;
 }
 
 .about-content img:nth-child(1) {
@@ -25,7 +28,7 @@
 }
 
 .about-content p:nth-of-type(2) {
-    font-size: 1.12rem;
+    font-size: 17px;
 }
 
 .about-content p {
