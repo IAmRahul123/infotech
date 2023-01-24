@@ -13,6 +13,8 @@ import Navbar from "./pages/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import GetInTouch from "./components/GetInTouch/GetInTouch";
 import Carousel from "./components/Carousel/Carousel";
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
 
 function App() {
 	const action = useNavigationType();
@@ -57,10 +59,13 @@ function App() {
         <Route path="/" element={<Footer />} />
       </Routes> */}
 
-			{/* <Navbar /> */}
+			<Navbar />
+			<Hero />
+			<About />
 			<Carousel />
-			{/* <GetInTouch />
-			<Footer /> */}
+
+			<GetInTouch />
+			<Footer />
 		</>
 	);
 }

@@ -8,11 +8,11 @@ const Homepage2 = () => {
 		<div className="homepage2" style={{}}>
 			<img className="homepage2-child" alt="" src="../vector-7.svg" />
 			<img className="homepage2-item" alt="" src="../vector-1.svg" />
-			<img className="homepage2-inner" alt="" src="../vector-3.svg" />
-			<img className="vector-icon" alt="" src="../vector-5.svg" />
-			<img className="homepage2-child1" alt="" src="../vector-4.svg" />
-			<img className="homepage2-child2" alt="" src="../vector-6.svg" />
-			<img
+			{/* <img className="homepage2-inner" alt="" src="../vector-3.svg" />
+			<img className="vector-icon" alt="" src="../vector-5.svg" /> */}
+			{/* <img className="homepage2-child1" alt="" src="../vector-4.svg" />
+			<img className="homepage2-child2" alt="" src="../vector-6.svg" /> */}
+			{/* <img
 				className="pexels-emre-can-acer-2079293-1-icon"
 				alt=""
 				src="../pexelsemrecanacer2079293-1@2x.png"
@@ -32,7 +32,7 @@ const Homepage2 = () => {
 				alt=""
 				src="../pexelsemrecanacer2079293-3@2x.png"
 			/>
-			<img className="rectangle-icon" alt="" src="../rectangle-34.svg" />
+			<img className="rectangle-icon" alt="" src="../rectangle-34.svg" /> */}
 			{/* <button className="rectangle-parent">
 				<div className="group-child" />
 				<b className="learn-more">Learn More</b>

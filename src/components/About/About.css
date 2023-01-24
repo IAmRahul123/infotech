@@ -1,0 +1,33 @@
+.about-content {
+    align-items: center;
+    margin: 5rem;
+}
+
+.about-content img {
+    float: left;
+    margin-right: 10px;
+    height: 15rem;
+    width: auto
+}
+
+.about-content img:nth-child(1) {
+    position: absolute;
+    margin-right: 10px;
+    /* width: 400px; */
+    height: 400px;
+    right: 10px;
+}
+
+.about-content p:first-of-type {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.about-content p:nth-of-type(2) {
+    font-size: 1.12rem;
+}
+
+.about-content p {
+    margin-right: 5rem;
+}
