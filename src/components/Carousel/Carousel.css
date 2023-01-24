@@ -1,0 +1,74 @@
+/** @format */
+.car-main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+.carousel-container {
+	position: relative;
+	/* width: 50%; */
+	overflow: hidden;
+	display: flex;
+	border: 0.2px solid #d6d6d6;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-radius: 15px;
+}
+
+.carousel-slider {
+	display: flex;
+	transition: transform 0.5s ease;
+	justify-content: space-evenly;
+	width: 100%;
+	gap: 1.5rem;
+}
+.car-img-container {
+	display: flex;
+	justify-content: space-evenly;
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+	align-items: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.carousel-slider img {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
+.car-btn {
+	height: 40px;
+	width: 40px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	position: relative;
+	top: 80px;
+	cursor: pointer;
+	background-color: #fff;
+	border: 0.2px solid #d6d6d6;
+	outline: none;
+}
+
+.car-btn img {
+}
+
+.dots-container {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.dot {
+	font-size: 2rem;
+	margin: 0 0.5rem;
+	cursor: pointer;
+	color: gray;
+}
+
+.dot.active {
+	color: black;
+}
